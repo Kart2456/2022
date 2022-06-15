@@ -1,0 +1,425 @@
+.NavBar {
+    margin-right: 8.6%;
+    margin-left: 8.6%;
+    display: flex;
+
+}
+
+.box {
+    width: 163.281px;
+    text-align: left;
+}
+.logo {
+    margin-top: 10px;
+    height: 36px;
+    margin-bottom: 10px;
+}
+
+.panel {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.element {
+    list-style: none;
+    font-size: 1rem;
+    margin-top: 5px;
+    text-decoration: none;
+    margin-right: 15px;
+    color: #0B132A;
+}
+
+.element1 {
+    
+    list-style: none;
+    font-size: 1rem;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #0B132A;
+}
+
+.contact {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.phone {
+    margin-top: 2px;
+    font-weight: 500;
+    color: #4677F0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.street {
+    margin: 0;
+    padding: 0;
+    color: #0B132A;
+}
+
+@media (min-width: 475px) and (max-width: 930px) {
+    .NavBar {
+        margin-right: 4.6%;
+        margin-left: 4.6%;
+        display: flex;
+        flex-flow: column;
+
+    }
+    
+    .box {
+        text-align: center;
+        width: 82.422px;
+        height: 36px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        margin-top: 10px;
+        height: 36px;
+        margin-bottom: 10px;
+    }
+    
+    .panel {
+        order: 2;
+        padding: 0;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .element {
+        list-style: none;
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+
+    .element1 {
+        margin-left: 0px;
+        list-style: none;
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+    
+    .contact {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        
+    }
+    
+    .phone {
+        margin-top: 2px;
+        font-weight: 500;
+        color: #4677F0;
+        margin: 0;
+        padding: 0;
+        margin-right: 15px;
+        margin-bottom: 0;
+        font-size: 1.125rem;
+    }
+    
+    .street {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 1.125rem;
+    }
+    
+}
+
+@media (min-width: 415px) and (max-width: 475px) {
+    .NavBar {
+        margin-right: 4.6%;
+        margin-left: 4.6%;
+        display: flex;
+        flex-flow: column;
+
+    }
+    
+    .box {
+        text-align: center;
+        width: 82.422px;
+        height: 32px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        margin-top: 10px;
+        height: 32px;
+        margin-bottom: 10px;
+    }
+    
+    .panel {
+        order: 2;
+        padding: 0;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .element {
+        list-style: none;
+        font-size: 1rem;
+        margin-top: 0px;
+
+    }
+
+    .element1 {
+        margin-left: 0px;
+        list-style: none;
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+    
+    .contact {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        font-size: 1.17rem;
+        
+    }
+    
+    .phone {
+        margin-top: 2px;
+        font-weight: 500;
+        color: #4677F0;
+        margin: 0;
+        padding: 0;
+        margin-right: 15px;
+        margin-bottom: 0;
+
+    }
+}
+
+@media (min-width: 379px) and (max-width: 415px) {
+    .NavBar {
+        margin-right: 4.6%;
+        margin-left: 4.6%;
+        display: flex;
+        flex-flow: column;
+
+    }
+    
+    .box {
+        text-align: center;
+        width: 82.422px;
+        height: 32px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        margin-top: 10px;
+        height: 32px;
+        margin-bottom: 10px;
+    }
+    
+    .panel {
+        order: 2;
+        padding: 0;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .element {
+        list-style: none;
+        margin-top: 0px;
+        font-size: 0.95rem;
+
+    }
+
+    .element1 {
+        margin-left: 0px;
+        list-style: none;
+        margin-top: 0px;
+        font-size: 0.95rem;
+    }
+    
+    .contact {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        font-size: 1.07rem;
+        
+    }
+    
+    .phone {
+        margin-top: 2px;
+        font-weight: 500;
+        color: #4677F0;
+        margin: 0;
+        padding: 0;
+        margin-right: 15px;
+        margin-bottom: 0;
+
+    }
+}
+
+@media (min-width: 357px) and (max-width: 379px) {
+    .NavBar {
+        margin-right: 2.6%;
+        margin-left: 2.6%;
+        display: flex;
+        flex-flow: column;
+
+    }
+    
+    .box {
+        text-align: center;
+        width: 82.422px;
+        height: 32px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        margin-top: 10px;
+        height: 32px;
+        margin-bottom: 10px;
+    }
+    
+    .panel {
+        order: 2;
+        padding: 0;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .element {
+        list-style: none;
+        font-size: 0.93rem;
+        margin-top: 0px;
+
+    }
+
+    .element1 {
+        margin-left: 0px;
+        list-style: none;
+        font-size: 0.93rem;
+        margin-top: 0px;
+    }
+    
+    .contact {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        font-size: 1rem;
+        
+    }
+    
+    .phone {
+        margin-top: 2px;
+        font-weight: 500;
+        color: #4677F0;
+        margin: 0;
+        padding: 0;
+        margin-right: 15px;
+        margin-bottom: 0;
+
+    }
+}
+
+@media (min-width: 319px) and (max-width: 357px) {
+    .NavBar {
+        margin-right: 4.6%;
+        margin-left: 4.6%;
+        display: flex;
+        flex-flow: column;
+
+    }
+
+    .box {
+        text-align: center;
+        width: 82.422px;
+        height: 32px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        margin-top: 10px;
+        height: 32px;
+        margin-bottom: 10px;
+    }
+    
+    .panel {
+        order: 2;
+        padding: 0;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .contact {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        font-size: 0.895rem;
+        
+    }
+
+    .element {
+        list-style: none;
+        font-size: 1rem;
+        margin-top: 0px;
+        font-size: 0.78rem;
+    }
+
+    .element1 {
+        margin-left: 0px;
+        list-style: none;
+        font-size: 1rem;
+        margin-top: 0px;
+        font-size: 0.78rem;
+    }
+
+    .phone {
+        margin-top: 2px;
+        font-weight: 500;
+        color: #4677F0;
+        margin: 0;
+        padding: 0;
+        margin-right: 15px;
+        margin-bottom: 0;
+
+    }
+    
+}

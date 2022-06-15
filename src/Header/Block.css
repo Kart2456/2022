@@ -1,0 +1,26 @@
+.contactbotton{
+    box-shadow: 0 1px 9px #4474F0, 0 1px 9px #4F84EB;
+}
+
+.contactbotton:hover {
+    box-shadow: 0 3px 13px #4474F0, 0 3px 13px#4F84EB;
+    transition: 300ms;
+}
+
+.contactbotton:not(:hover) {
+    transition: 300ms;
+}
+
+.contactbotton2{
+    box-shadow: 0 1px 9px #F5560B, 0 1px 9px #F98703;
+}
+
+
+.contactbotton2:hover {
+    box-shadow: 0 3px 13px #F5560B, 0 3px 13px #F98703;
+    transition: 300ms;
+}
+
+.contactbotton2:not(:hover) {
+    transition: 300ms;
+}
