@@ -1,6 +1,7 @@
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import MediaQuery from 'react-responsive';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import React from 'react';
 
 
 import 'swiper/css';
@@ -23,23 +24,23 @@ import Img11 from './img/12.jpg';
 
 
 const styles = {
-    forphoto: {
-        height: '300px',
-        width: '400px',
-        borderRadius: '10px',
-        objectFit: 'cover',
-        objectPosition: '0 10'
-    }
+  forphoto: {
+    height: '300px',
+    width: '400px',
+    borderRadius: '10px',
+    objectFit: 'cover',
+    objectPosition: '0 10'
+  }
 }
 
 const stylesmin = {
   forphoto: {
-      height: '300px',
-      width: '500px',
-      borderRadius: '10px',
-      objectFit: 'cover',
-      objectPosition: '0 10',
-      borderRadius: '10px'
+    height: '300px',
+    width: '500px',
+    borderRadius: '10px',
+    objectFit: 'cover',
+    objectPosition: '0 10',
+    borderRadius: '10px'
   },
 
   photosize: {
@@ -54,12 +55,12 @@ const stylesmin = {
 
 const stylessr = {
   forphoto: {
-      height: '500px',
-      width: '800px',
-      borderRadius: '10px',
-      objectFit: 'cover',
-      objectPosition: '0 10',
-      borderRadius: '10px'
+    height: '500px',
+    width: '800px',
+    borderRadius: '10px',
+    objectFit: 'cover',
+    objectPosition: '0 10',
+    borderRadius: '10px'
   },
 
   photosize: {
@@ -77,7 +78,7 @@ const stylessr = {
 export default () => {
   return (
     <div>
-          <MediaQuery minWidth={1707} maxWidth={10000}>
+      <MediaQuery minWidth={1707} maxWidth={10000}>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
@@ -87,21 +88,21 @@ export default () => {
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
         >
-          <SwiperSlide><img style={styles.forphoto} src= {Img} /></SwiperSlide>
-          <SwiperSlide><img style={styles.forphoto} src= {Img1} /></SwiperSlide>
-          <SwiperSlide><img style={styles.forphoto} src= {Img2} /></SwiperSlide>
-          <SwiperSlide><img style={styles.forphoto} src= {Img3} /></SwiperSlide>
-          <SwiperSlide><img style={styles.forphoto} src= {Img4} /></SwiperSlide>
-          <SwiperSlide><img style={styles.forphoto} src= {Img5} /></SwiperSlide>
-          <SwiperSlide><img style={styles.forphoto} src= {Img6} /></SwiperSlide>
-          <SwiperSlide><img style={styles.forphoto} src= {Img7} /></SwiperSlide>
-          <SwiperSlide><img style={styles.forphoto} src= {Img8} /></SwiperSlide>
-          <SwiperSlide><img style={styles.forphoto} src= {Img9} /></SwiperSlide>
-          <SwiperSlide><img style={styles.forphoto} src= {Img10} /></SwiperSlide>
-          <SwiperSlide><img style={styles.forphoto} src= {Img11} /></SwiperSlide>
-      </Swiper>
-    </MediaQuery>
-    <MediaQuery minWidth={0} maxWidth={674}>
+          <SwiperSlide><img style={styles.forphoto} src={Img} /></SwiperSlide>
+          <SwiperSlide><img style={styles.forphoto} src={Img1} /></SwiperSlide>
+          <SwiperSlide><img style={styles.forphoto} src={Img2} /></SwiperSlide>
+          <SwiperSlide><img style={styles.forphoto} src={Img3} /></SwiperSlide>
+          <SwiperSlide><img style={styles.forphoto} src={Img4} /></SwiperSlide>
+          <SwiperSlide><img style={styles.forphoto} src={Img5} /></SwiperSlide>
+          <SwiperSlide><img style={styles.forphoto} src={Img6} /></SwiperSlide>
+          <SwiperSlide><img style={styles.forphoto} src={Img7} /></SwiperSlide>
+          <SwiperSlide><img style={styles.forphoto} src={Img8} /></SwiperSlide>
+          <SwiperSlide><img style={styles.forphoto} src={Img9} /></SwiperSlide>
+          <SwiperSlide><img style={styles.forphoto} src={Img10} /></SwiperSlide>
+          <SwiperSlide><img style={styles.forphoto} src={Img11} /></SwiperSlide>
+        </Swiper>
+      </MediaQuery>
+      <MediaQuery minWidth={0} maxWidth={674}>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
@@ -111,21 +112,21 @@ export default () => {
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
         >
-          <SwiperSlide><img style={stylesmin.photosize} src= {Img} /></SwiperSlide>
-          <SwiperSlide><img style={stylesmin.photosize} src= {Img1} /></SwiperSlide>
-          <SwiperSlide><img style={stylesmin.photosize} src= {Img2} /></SwiperSlide>
-          <SwiperSlide><img style={stylesmin.photosize} src= {Img3} /></SwiperSlide>
-          <SwiperSlide><img style={stylesmin.photosize} src= {Img4} /></SwiperSlide>
-          <SwiperSlide><img style={stylesmin.photosize} src= {Img5} /></SwiperSlide>
-          <SwiperSlide><img style={stylesmin.photosize} src= {Img6} /></SwiperSlide>
-          <SwiperSlide><img style={stylesmin.photosize} src= {Img7} /></SwiperSlide>
-          <SwiperSlide><img style={stylesmin.photosize} src= {Img8} /></SwiperSlide>
-          <SwiperSlide><img style={stylesmin.photosize} src= {Img9} /></SwiperSlide>
-          <SwiperSlide><img style={stylesmin.photosize} src= {Img10} /></SwiperSlide>
-          <SwiperSlide><img style={stylesmin.photosize} src= {Img11} /></SwiperSlide>
-      </Swiper>
-    </MediaQuery>
-    <MediaQuery minWidth={675} maxWidth={1707}>
+          <SwiperSlide><img style={stylesmin.photosize} src={Img} /></SwiperSlide>
+          <SwiperSlide><img style={stylesmin.photosize} src={Img1} /></SwiperSlide>
+          <SwiperSlide><img style={stylesmin.photosize} src={Img2} /></SwiperSlide>
+          <SwiperSlide><img style={stylesmin.photosize} src={Img3} /></SwiperSlide>
+          <SwiperSlide><img style={stylesmin.photosize} src={Img4} /></SwiperSlide>
+          <SwiperSlide><img style={stylesmin.photosize} src={Img5} /></SwiperSlide>
+          <SwiperSlide><img style={stylesmin.photosize} src={Img6} /></SwiperSlide>
+          <SwiperSlide><img style={stylesmin.photosize} src={Img7} /></SwiperSlide>
+          <SwiperSlide><img style={stylesmin.photosize} src={Img8} /></SwiperSlide>
+          <SwiperSlide><img style={stylesmin.photosize} src={Img9} /></SwiperSlide>
+          <SwiperSlide><img style={stylesmin.photosize} src={Img10} /></SwiperSlide>
+          <SwiperSlide><img style={stylesmin.photosize} src={Img11} /></SwiperSlide>
+        </Swiper>
+      </MediaQuery>
+      <MediaQuery minWidth={675} maxWidth={1707}>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
@@ -135,20 +136,20 @@ export default () => {
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
         >
-          <SwiperSlide><img style={stylessr.photosize} src= {Img} /></SwiperSlide>
-          <SwiperSlide><img style={stylessr.photosize} src= {Img1} /></SwiperSlide>
-          <SwiperSlide><img style={stylessr.photosize} src= {Img2} /></SwiperSlide>
-          <SwiperSlide><img style={stylessr.photosize} src= {Img3} /></SwiperSlide>
-          <SwiperSlide><img style={stylessr.photosize} src= {Img4} /></SwiperSlide>
-          <SwiperSlide><img style={stylessr.photosize} src= {Img5} /></SwiperSlide>
-          <SwiperSlide><img style={stylessr.photosize} src= {Img6} /></SwiperSlide>
-          <SwiperSlide><img style={stylessr.photosize} src= {Img7} /></SwiperSlide>
-          <SwiperSlide><img style={stylessr.photosize} src= {Img8} /></SwiperSlide>
-          <SwiperSlide><img style={stylessr.photosize} src= {Img9} /></SwiperSlide>
-          <SwiperSlide><img style={stylessr.photosize} src= {Img10} /></SwiperSlide>
-          <SwiperSlide><img style={stylessr.photosize} src= {Img11} /></SwiperSlide>
-      </Swiper>
-    </MediaQuery>
+          <SwiperSlide><img style={stylessr.photosize} src={Img} /></SwiperSlide>
+          <SwiperSlide><img style={stylessr.photosize} src={Img1} /></SwiperSlide>
+          <SwiperSlide><img style={stylessr.photosize} src={Img2} /></SwiperSlide>
+          <SwiperSlide><img style={stylessr.photosize} src={Img3} /></SwiperSlide>
+          <SwiperSlide><img style={stylessr.photosize} src={Img4} /></SwiperSlide>
+          <SwiperSlide><img style={stylessr.photosize} src={Img5} /></SwiperSlide>
+          <SwiperSlide><img style={stylessr.photosize} src={Img6} /></SwiperSlide>
+          <SwiperSlide><img style={stylessr.photosize} src={Img7} /></SwiperSlide>
+          <SwiperSlide><img style={stylessr.photosize} src={Img8} /></SwiperSlide>
+          <SwiperSlide><img style={stylessr.photosize} src={Img9} /></SwiperSlide>
+          <SwiperSlide><img style={stylessr.photosize} src={Img10} /></SwiperSlide>
+          <SwiperSlide><img style={stylessr.photosize} src={Img11} /></SwiperSlide>
+        </Swiper>
+      </MediaQuery>
     </div>
   );
 };
